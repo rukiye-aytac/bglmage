@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  color: aliceblue;
+  font-family: Roboto;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+header.banner .bg {
+  background-image: url("./assets/tree.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  padding: 1rem;
+}
+
+header.banner .bg h1 {
+  font-size: 3rem;
+}
+
+header.banner .bg p {
+  font-size: 1.5rem;
+}
+
+.buttons button {
+  display: inline-block;
+  background-color: grey;
+  width: 5rem;
+  height: 0.5rem;
+  margin-right: 0.7rem;
+}
+
+.buttons {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 0;
+  right: 0;
+}
+
+.buttons .active {
+  background-color: tomato;
+}
